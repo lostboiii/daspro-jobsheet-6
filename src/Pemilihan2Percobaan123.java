@@ -8,7 +8,7 @@ public class Pemilihan2Percobaan123 {
         System.out.println("Masukkan tahun : ");
         tahun = input23.nextInt();
 
-        if ((tahun % 4) == 0) {
+        if ((tahun % 400) == 0) {
             if ((tahun % 100) != 0)
             System.out.println("Tahun Kabisat   ");
         }
